@@ -1,0 +1,1065 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e53a42e7-3665-4428-9aca-0097b77b16f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{134367ba-056e-4116-b420-490d576c2c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01. Header">
+      <UniqueIdentifier>{3b074497-e273-42e3-95c3-5a1defc0b2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Engine">
+      <UniqueIdentifier>{8bb30ab5-e7ad-4936-b9e1-d299c901b0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger">
+      <UniqueIdentifier>{ebed0d57-0b92-42d2-8559-40f864170fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level">
+      <UniqueIdentifier>{fb653d26-1a37-4713-8e66-bf0debfe0a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object">
+      <UniqueIdentifier>{14adf8b3-1dfd-4eb5-a3db-ef1cad9f4153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component">
+      <UniqueIdentifier>{74082c9c-fee0-46ab-8d5e-19db6892d3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. Asset">
+      <UniqueIdentifier>{c1000822-995d-4479-a66a-ad6306e04afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module">
+      <UniqueIdentifier>{58d80080-3962-4eaa-8f16-c57ad91e038a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Base">
+      <UniqueIdentifier>{e916de6f-ff01-465f-92ca-c4e3ec3bd94a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\01.TimeMgr">
+      <UniqueIdentifier>{3ee7d0df-fe72-4e8b-9099-a983864a047d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\02. KeyMgr">
+      <UniqueIdentifier>{4531c9a7-1b30-409a-8d66-cfbd2e5c257d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\03. LevelMgr">
+      <UniqueIdentifier>{0731a5a8-5f14-434e-a676-90b1f19b397f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\04. AssetMgr">
+      <UniqueIdentifier>{65faa8a8-e7f1-490c-aab1-00222e3f80a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\07. TeskMgr">
+      <UniqueIdentifier>{eff21779-b0d6-4a94-b5e2-a7610ae30a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\06. PathMgr">
+      <UniqueIdentifier>{c9a63834-3ec4-4faa-b8ec-9c0ff77b5374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\08. DebugMgr">
+      <UniqueIdentifier>{69934718-9e60-49fb-a190-b5da6cd04555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\09. CollisionMgr">
+      <UniqueIdentifier>{eb81cebc-92f8-4138-ac48-70a21e7d26d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\10. Camera">
+      <UniqueIdentifier>{cdeb5063-d965-4b55-992e-830db2204fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\11. LogMgr">
+      <UniqueIdentifier>{bd03d4e0-3bf4-4972-b4dd-7dfd56983c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\01. Collider">
+      <UniqueIdentifier>{cc957c89-0037-4ead-bbd3-208c317349f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\02. Animator">
+      <UniqueIdentifier>{ad252603-3262-4a5d-8083-3c03ebaa579a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\03. TileMap">
+      <UniqueIdentifier>{bcaa7f3d-8129-4d5f-a2ef-6a356688395c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\04. StateMachine">
+      <UniqueIdentifier>{806b39d5-7911-48d3-b48d-5d882ca39777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. Asset\Texture">
+      <UniqueIdentifier>{50f4ea41-89ce-45bf-826a-75ee6c466b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. Asset\Sound">
+      <UniqueIdentifier>{bf6b7101-2c88-43b7-aa20-8e17239be3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\12. UIMgr">
+      <UniqueIdentifier>{b6a58d30-27b6-4f8f-8c81-85fdfff6bd75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\01. Bunker">
+      <UniqueIdentifier>{26a4d230-cddb-453a-9bea-081bd7be7c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\01. Bunker\Player">
+      <UniqueIdentifier>{b0a57746-0e0b-4e9a-9875-924efa87f10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\01. Bunker\Enemy">
+      <UniqueIdentifier>{7c576dd4-1d8c-46a4-82e8-5b3e4c5509ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit">
+      <UniqueIdentifier>{26b44399-9cc8-4e37-a45e-c534fe77a112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player">
+      <UniqueIdentifier>{4db0f17c-98f5-4f6c-b5f0-4197c5eeb2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy">
+      <UniqueIdentifier>{ef9e8668-5fba-49f7-a272-d646876cf5de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\13. CSoundMgr">
+      <UniqueIdentifier>{7e5c1ab1-3ef9-4fa5-ae40-d158e64c1880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\Anim">
+      <UniqueIdentifier>{9de88187-4b91-4a6c-8582-8b4ced413de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State">
+      <UniqueIdentifier>{91755184-3e93-4067-8e47-d16757edca47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\testState">
+      <UniqueIdentifier>{e8df088c-0a9e-4255-b1bc-f47ee3a45314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\99. Tile">
+      <UniqueIdentifier>{6a4a59ff-4484-4d9e-8535-6a3c51f7391a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\05. Map">
+      <UniqueIdentifier>{6a2fb8ca-1e5a-4be9-8bf4-1c50f938f949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\05. Map\BackMap">
+      <UniqueIdentifier>{23dca5a1-bb4b-4a93-a62e-e0d63dba062d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\05. Map\BackETC">
+      <UniqueIdentifier>{2a02b362-9da0-4987-89ff-e5b383549594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\05. Map\PlatMap">
+      <UniqueIdentifier>{54104c11-6f67-4937-8339-4562dbe84c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Bullet">
+      <UniqueIdentifier>{78a0afea-d90f-4ca8-ae64-242afbaf0032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\06. UI">
+      <UniqueIdentifier>{50def4f1-c131-4c3a-ae0b-c472a511fb68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\06. UI\01. BtnUI">
+      <UniqueIdentifier>{5bc712e0-5bd9-4484-8acb-3d7c30080e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\04. Skill">
+      <UniqueIdentifier>{e50ce21d-7843-47e9-ab44-6a1de5de5739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\01. Solider">
+      <UniqueIdentifier>{08d1061f-593d-40b7-9472-498bd7bffd8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\01. Solider">
+      <UniqueIdentifier>{57c1c49a-1870-4023-becf-247494a134a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Bullet\01. small">
+      <UniqueIdentifier>{b96fb1bd-1fb6-4cc4-91ac-aa65b1d3783a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\01. BaseState">
+      <UniqueIdentifier>{07b0778c-125e-4972-a4cb-58be085d98c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\01. BaseState\TraceState">
+      <UniqueIdentifier>{ac32286d-1558-43f0-80a3-e87b5451bc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\02. SWAT">
+      <UniqueIdentifier>{55b7cd58-2b04-4edb-a279-4a8f3dc8dd2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\02. SWAT">
+      <UniqueIdentifier>{7ea3de8b-c2f8-4778-bd05-7ee23166d862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\02. UnitState">
+      <UniqueIdentifier>{bbce1b3b-1750-4116-ab39-342861018f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\02. UnitState\DeathState">
+      <UniqueIdentifier>{80f8dee7-cb2c-4b2d-84b3-1cb323663ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\02. UnitState\ShootState">
+      <UniqueIdentifier>{01d52eb4-0419-4d9b-8ddd-7f4d7d9a6bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\02. UnitState\TraceState">
+      <UniqueIdentifier>{ab361a45-b642-4a9e-8b65-7895d0b14544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\03. Sniper">
+      <UniqueIdentifier>{51df1d55-70b8-4afe-abc3-e398349e4a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\04. Medic">
+      <UniqueIdentifier>{a71b2c0b-f7d7-45b2-bdd9-d180395957f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\05. SearchRange">
+      <UniqueIdentifier>{b9a645a8-efe8-46c3-bc66-aa28258e6bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\05. Scout">
+      <UniqueIdentifier>{71d61ee8-b25c-4dea-a311-306c2e96ead0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\06. Destroyer">
+      <UniqueIdentifier>{23d03479-4230-4e40-aac6-e31ffce19cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Bullet\02. bazuka">
+      <UniqueIdentifier>{cd4d176d-0973-4f1d-adf2-24cb130513d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\10. Humvee">
+      <UniqueIdentifier>{2fa4f0a7-3b42-45a5-811a-17f5cbaa9cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\07. Platform">
+      <UniqueIdentifier>{457d2c1f-0154-4ea6-a86a-41f78b9aaac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Maniger\14. UnitMgr">
+      <UniqueIdentifier>{cf6e789c-17d1-4127-90a6-af1e3a223323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\06. UI\03. DragUI">
+      <UniqueIdentifier>{afe25fb3-d1b9-4b8f-8e06-da62d0003748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\06. UI\02. HoldUI">
+      <UniqueIdentifier>{178e9186-94bb-494d-8c0c-2bf6cbc82c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\04. Skill\01. Repair">
+      <UniqueIdentifier>{ab8e0ca5-a077-4ca6-b941-8a0bdcd4a085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\04. Skill\02. AirSupport">
+      <UniqueIdentifier>{f9b71870-c515-4470-9b73-8e6fe453802b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Bullet\03. AirBullet">
+      <UniqueIdentifier>{aa337b6e-4dbb-4254-b2ea-1ed1648d2fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\06. UI\04. TextUI">
+      <UniqueIdentifier>{95930ead-290a-47e0-86da-1b0db38a02d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\08. Module\State\03. EnemyState">
+      <UniqueIdentifier>{700873a6-2700-46b2-83b8-4ca36b2965a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\03. Sniper">
+      <UniqueIdentifier>{a1b2359d-2cda-40da-baca-613dda80d134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\04. Medic">
+      <UniqueIdentifier>{b9009a63-0f2a-4738-a30c-c6bb0d7a67c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\11. BMP 장갑차">
+      <UniqueIdentifier>{dda847e5-6802-45cd-81d3-9adb3f66a9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\08. Effect">
+      <UniqueIdentifier>{25fb32c1-f917-4ed7-a7a9-8ca4acf15ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\08. Effect\01. shootbullet">
+      <UniqueIdentifier>{c7ab0477-7105-4aa3-97ee-64918c85f0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\08. Effect\03. shoot shotgun">
+      <UniqueIdentifier>{3cc31f5f-4732-4210-b3e4-0ae4021609f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\08. Effect\04. HitBazuka">
+      <UniqueIdentifier>{1cd39780-1f07-4290-9170-77b2c646a623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\08. Effect\05. HitBullet">
+      <UniqueIdentifier>{073da752-4156-4d32-9276-26b70d4320d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\08. Effect\06.HitHumen">
+      <UniqueIdentifier>{922f0fbc-c6dc-4a26-b751-940781a83ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\08. Effect\07. HitHeal">
+      <UniqueIdentifier>{960c3b2d-7318-459e-bd89-bb0208ad326e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\05. Scout">
+      <UniqueIdentifier>{b27b38ff-ab32-4e63-9dec-620829946ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\06. HeavySolider">
+      <UniqueIdentifier>{be6ca0b7-4b5b-47c4-8635-9d00446fdf30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\11. BMP 장갑차">
+      <UniqueIdentifier>{bcc3545a-5967-4e56-a1f3-7b43a8f850dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\10. Humvee">
+      <UniqueIdentifier>{6504fee7-4345-49c2-9e91-48f1470bc197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\12.K2전차">
+      <UniqueIdentifier>{c683ec10-8a8b-4073-8c17-a90e5b841fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Bullet\04. TankBullet">
+      <UniqueIdentifier>{ab8cfd3d-b11a-4b58-b772-3653b5f82cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\08. Effect\08. ShootTank">
+      <UniqueIdentifier>{dbe2b0e5-7a66-4c2f-b29d-95a35f0c617a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\08. Effect\02. shootBazuka">
+      <UniqueIdentifier>{7a6cf968-1208-440f-a20f-b46f4087655a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\08. Veteran Solider">
+      <UniqueIdentifier>{4c78d845-a67f-4f59-9639-49af5dd8d291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\07. HeavySolider">
+      <UniqueIdentifier>{f1e208f5-253a-40c4-8997-00eb3bffa364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\09. Veteran SWAT">
+      <UniqueIdentifier>{d38a653f-1c2a-40ff-82ae-5761853b8c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\07. Destroyer">
+      <UniqueIdentifier>{9d8d7c1d-093b-4434-88a9-dbf0870b5e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\09. MiniMap">
+      <UniqueIdentifier>{f9ae48a3-0d1f-49a7-84ec-0173c6cc4cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\08. Truck">
+      <UniqueIdentifier>{dfccd96d-aee5-46ba-bdf8-53149958fe18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\09. VeteranSolider">
+      <UniqueIdentifier>{5774031f-4577-4a23-93b8-270f6e93b9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\12. Bradley 장갑차">
+      <UniqueIdentifier>{894e5bb4-acfa-427f-81e6-34ad0baf1031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\02. Select">
+      <UniqueIdentifier>{02edd331-93bc-4d83-bff8-33484d613173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\02. Select\01, StageSelect">
+      <UniqueIdentifier>{8ddbbbfb-9f77-4a6c-bcf7-bcae1ff5ed1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\02. Select\02. UnitSelect">
+      <UniqueIdentifier>{61b1bbb6-9858-4099-8d81-01c3402308e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\03. Stage">
+      <UniqueIdentifier>{f2493d6d-5a44-482b-a59d-6365c52c3399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\03. Stage\02. stage01">
+      <UniqueIdentifier>{ee128a20-9b92-4783-8a1b-b4b26a97525b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\03. Stage\01.test">
+      <UniqueIdentifier>{b208970e-9fb1-4e72-b705-8dcfaa1b251f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\03. Stage\03. Stage02">
+      <UniqueIdentifier>{6fdd6756-b2d0-4a57-ba07-ecd426cd0565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\03. Stage\04. Stage03">
+      <UniqueIdentifier>{296f9752-40a5-4d9b-8512-f9990b84b067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\01. Start">
+      <UniqueIdentifier>{161553f8-0364-4dba-a6bd-8765e99e4599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\10. Editor">
+      <UniqueIdentifier>{0c3550e3-7ca0-42b0-9c3c-4d4bfb9be072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Level\03. Stage\05. Stage04">
+      <UniqueIdentifier>{c2973d05-a20b-48b0-8be7-b9e5892c7fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\13. K2 Tank">
+      <UniqueIdentifier>{0ed93834-8451-4f18-b715-88c6058f0945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\04. Skill\03. Precision Bombard">
+      <UniqueIdentifier>{e7ed623b-7536-4dc5-8489-22e1d39fa5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\03. Bullet\05. PrecBoom">
+      <UniqueIdentifier>{57cf1964-beb2-4cff-96d5-b86431a0aa9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\08. Effect\09. precBoom">
+      <UniqueIdentifier>{bb0e6cd1-bd6b-4d0e-9466-9f820c8d6677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\player\13. veteranHeavy">
+      <UniqueIdentifier>{e8223b40-f0d6-4932-b0f4-c2513a354d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Object\02. Unit\Enemy\14.VeteranSWAT">
+      <UniqueIdentifier>{7bc399e9-4805-4fb9-b77f-9e2d9ae85713}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmyWars.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngine.h">
+      <Filter>Game\02. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeMgr.h">
+      <Filter>Game\03. Maniger\01.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CBase.h">
+      <Filter>Game\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>Game\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>Game\06. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CAsset.h">
+      <Filter>Game\07. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyMgr.h">
+      <Filter>Game\03. Maniger\02. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelMgr.h">
+      <Filter>Game\03. Maniger\03. LevelMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathMgr.h">
+      <Filter>Game\03. Maniger\06. PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CAssetMgr.h">
+      <Filter>Game\03. Maniger\04. AssetMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskMgr.h">
+      <Filter>Game\03. Maniger\07. TeskMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelectObject.h">
+      <Filter>Game\08. Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CDebugMgr.h">
+      <Filter>Game\03. Maniger\08. DebugMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionMgr.h">
+      <Filter>Game\03. Maniger\09. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel.h">
+      <Filter>Game\04. Level</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Game\06. Component\01. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_Editor.h">
+      <Filter>Game\04. Level\10. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Game\03. Maniger\10. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Game\07. Asset\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnit.h">
+      <Filter>Game\05. Object\02. Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="CBunker.h">
+      <Filter>Game\05. Object\01. Bunker</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Game\07. Asset\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogMgr.h">
+      <Filter>Game\03. Maniger\11. LogMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIMgr.h">
+      <Filter>Game\03. Maniger\12. UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundMgr.h">
+      <Filter>Game\03. Maniger\13. CSoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>Game\05. Object\99. Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileMap.h">
+      <Filter>Game\06. Component\03. TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>Game\05. Object\06. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Game\06. Component\02. Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnim.h">
+      <Filter>Game\08. Module\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="CBtnUI.h">
+      <Filter>Game\05. Object\06. UI\01. BtnUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CHoldUI.h">
+      <Filter>Game\05. Object\06. UI\02. HoldUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateMachine.h">
+      <Filter>Game\06. Component\04. StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="CState.h">
+      <Filter>Game\08. Module\State</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleState.h">
+      <Filter>Game\08. Module\State\testState</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlatform.h">
+      <Filter>Game\05. Object\07. Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftBunker.h">
+      <Filter>Game\05. Object\01. Bunker\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="RightBunker.h">
+      <Filter>Game\05. Object\01. Bunker\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlatMap.h">
+      <Filter>Game\05. Object\05. Map\PlatMap</Filter>
+    </ClInclude>
+    <ClInclude Include="CMap.h">
+      <Filter>Game\05. Object\05. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackETC.h">
+      <Filter>Game\05. Object\05. Map\BackETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackMap.h">
+      <Filter>Game\05. Object\05. Map\BackMap</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>Game\05. Object\03. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceState.h">
+      <Filter>Game\08. Module\State\02. UnitState\TraceState</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootState.h">
+      <Filter>Game\08. Module\State\02. UnitState\ShootState</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathState.h">
+      <Filter>Game\08. Module\State\02. UnitState\DeathState</Filter>
+    </ClInclude>
+    <ClInclude Include="CSmallBullet.h">
+      <Filter>Game\05. Object\03. Bullet\01. small</Filter>
+    </ClInclude>
+    <ClInclude Include="PSolider.h">
+      <Filter>Game\05. Object\02. Unit\player\01. Solider</Filter>
+    </ClInclude>
+    <ClInclude Include="ESolider.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\01. Solider</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTraceState.h">
+      <Filter>Game\08. Module\State\01. BaseState\TraceState</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_Stage.h">
+      <Filter>Game\04. Level\03. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="PSWAT.h">
+      <Filter>Game\05. Object\02. Unit\player\02. SWAT</Filter>
+    </ClInclude>
+    <ClInclude Include="ESWAT.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\02. SWAT</Filter>
+    </ClInclude>
+    <ClInclude Include="PMedic.h">
+      <Filter>Game\05. Object\02. Unit\player\04. Medic</Filter>
+    </ClInclude>
+    <ClInclude Include="CSearchRange.h">
+      <Filter>Game\06. Component\05. SearchRange</Filter>
+    </ClInclude>
+    <ClInclude Include="PSniper.h">
+      <Filter>Game\05. Object\02. Unit\player\03. Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="PScout.h">
+      <Filter>Game\05. Object\02. Unit\player\05. Scout</Filter>
+    </ClInclude>
+    <ClInclude Include="CBazukaBullet.h">
+      <Filter>Game\05. Object\03. Bullet\02. bazuka</Filter>
+    </ClInclude>
+    <ClInclude Include="PDestroyer.h">
+      <Filter>Game\05. Object\02. Unit\player\06. Destroyer</Filter>
+    </ClInclude>
+    <ClInclude Include="PHumvee.h">
+      <Filter>Game\05. Object\02. Unit\player\10. Humvee</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_Test.h">
+      <Filter>Game\04. Level\03. Stage\01.test</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnitMgr.h">
+      <Filter>Game\03. Maniger\14. UnitMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CDragUI.h">
+      <Filter>Game\05. Object\06. UI\03. DragUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_Start.h">
+      <Filter>Game\04. Level\01. Start</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkill.h">
+      <Filter>Game\05. Object\04. Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_Select.h">
+      <Filter>Game\04. Level\02. Select\02. UnitSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_StgSelect.h">
+      <Filter>Game\04. Level\02. Select\01, StageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="CRepair.h">
+      <Filter>Game\05. Object\04. Skill\01. Repair</Filter>
+    </ClInclude>
+    <ClInclude Include="CAirSupport.h">
+      <Filter>Game\05. Object\04. Skill\02. AirSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_Stage01.h">
+      <Filter>Game\04. Level\03. Stage\02. stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CAirBullet.h">
+      <Filter>Game\05. Object\03. Bullet\03. AirBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextUI.h">
+      <Filter>Game\05. Object\06. UI\04. TextUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySommonState.h">
+      <Filter>Game\08. Module\State\03. EnemyState</Filter>
+    </ClInclude>
+    <ClInclude Include="ESniper.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\03. Sniper</Filter>
+    </ClInclude>
+    <ClInclude Include="EMedic.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\04. Medic</Filter>
+    </ClInclude>
+    <ClInclude Include="PBMP3.h">
+      <Filter>Game\05. Object\02. Unit\player\11. BMP 장갑차</Filter>
+    </ClInclude>
+    <ClInclude Include="EHumvee.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\10. Humvee</Filter>
+    </ClInclude>
+    <ClInclude Include="PVeteranSolider.h">
+      <Filter>Game\05. Object\02. Unit\player\08. Veteran Solider</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffect.h">
+      <Filter>Game\05. Object\08. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CShootBullet.h">
+      <Filter>Game\05. Object\08. Effect\01. shootbullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CShootBazuka.h">
+      <Filter>Game\05. Object\08. Effect\02. shootBazuka</Filter>
+    </ClInclude>
+    <ClInclude Include="CShootShotgun.h">
+      <Filter>Game\05. Object\08. Effect\03. shoot shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="CHitBazuka.h">
+      <Filter>Game\05. Object\08. Effect\04. HitBazuka</Filter>
+    </ClInclude>
+    <ClInclude Include="CHitBullet.h">
+      <Filter>Game\05. Object\08. Effect\05. HitBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CHitHumen.h">
+      <Filter>Game\05. Object\08. Effect\06.HitHumen</Filter>
+    </ClInclude>
+    <ClInclude Include="CHitHeal.h">
+      <Filter>Game\05. Object\08. Effect\07. HitHeal</Filter>
+    </ClInclude>
+    <ClInclude Include="EScout.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\05. Scout</Filter>
+    </ClInclude>
+    <ClInclude Include="EHeavySolider.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\06. HeavySolider</Filter>
+    </ClInclude>
+    <ClInclude Include="EBMP2.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\11. BMP 장갑차</Filter>
+    </ClInclude>
+    <ClInclude Include="PK2Tank.h">
+      <Filter>Game\05. Object\02. Unit\player\12.K2전차</Filter>
+    </ClInclude>
+    <ClInclude Include="CTankBullet.h">
+      <Filter>Game\05. Object\03. Bullet\04. TankBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CShootTank.h">
+      <Filter>Game\05. Object\08. Effect\08. ShootTank</Filter>
+    </ClInclude>
+    <ClInclude Include="PHeavySolider.h">
+      <Filter>Game\05. Object\02. Unit\player\07. HeavySolider</Filter>
+    </ClInclude>
+    <ClInclude Include="PVeteranSWAT.h">
+      <Filter>Game\05. Object\02. Unit\player\09. Veteran SWAT</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_Stage02.h">
+      <Filter>Game\04. Level\03. Stage\03. Stage02</Filter>
+    </ClInclude>
+    <ClInclude Include="EDestroyer.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\07. Destroyer</Filter>
+    </ClInclude>
+    <ClInclude Include="ETruck.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\08. Truck</Filter>
+    </ClInclude>
+    <ClInclude Include="EVeteranSolider.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\09. VeteranSolider</Filter>
+    </ClInclude>
+    <ClInclude Include="EBradly.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\12. Bradley 장갑차</Filter>
+    </ClInclude>
+    <ClInclude Include="CMiniMap.h">
+      <Filter>Game\05. Object\09. MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_Stage03.h">
+      <Filter>Game\04. Level\03. Stage\04. Stage03</Filter>
+    </ClInclude>
+    <ClInclude Include="EK2Tank.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\13. K2 Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="CShootTank2.h">
+      <Filter>Game\05. Object\08. Effect\08. ShootTank</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel_Stage04.h">
+      <Filter>Game\04. Level\03. Stage\05. Stage04</Filter>
+    </ClInclude>
+    <ClInclude Include="PrecBombard.h">
+      <Filter>Game\05. Object\04. Skill\03. Precision Bombard</Filter>
+    </ClInclude>
+    <ClInclude Include="CPrecBoom.h">
+      <Filter>Game\05. Object\03. Bullet\05. PrecBoom</Filter>
+    </ClInclude>
+    <ClInclude Include="CLargeBoomEffect.h">
+      <Filter>Game\05. Object\08. Effect\09. precBoom</Filter>
+    </ClInclude>
+    <ClInclude Include="PVeteranHeavy.h">
+      <Filter>Game\05. Object\02. Unit\player\13. veteranHeavy</Filter>
+    </ClInclude>
+    <ClInclude Include="EVeteranSWAT.h">
+      <Filter>Game\05. Object\02. Unit\Enemy\14.VeteranSWAT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ArmyWars.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ArmyWars.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CEngine.cpp">
+      <Filter>Game\02. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Game\01. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeMgr.cpp">
+      <Filter>Game\03. Maniger\01.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmyWars.cpp" />
+    <ClCompile Include="CBase.cpp">
+      <Filter>Game\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>Game\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>Game\06. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CAsset.cpp">
+      <Filter>Game\07. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyMgr.cpp">
+      <Filter>Game\03. Maniger\02. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelMgr.cpp">
+      <Filter>Game\03. Maniger\03. LevelMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathMgr.cpp">
+      <Filter>Game\03. Maniger\06. PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CAssetMgr.cpp">
+      <Filter>Game\03. Maniger\04. AssetMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CTaskMgr.cpp">
+      <Filter>Game\03. Maniger\07. TeskMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectObject.cpp">
+      <Filter>Game\08. Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CDebugMgr.cpp">
+      <Filter>Game\03. Maniger\08. DebugMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionMgr.cpp">
+      <Filter>Game\03. Maniger\09. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel.cpp">
+      <Filter>Game\04. Level</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Game\06. Component\01. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_Editor.cpp">
+      <Filter>Game\04. Level\10. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Game\03. Maniger\10. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Game\07. Asset\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnit.cpp">
+      <Filter>Game\05. Object\02. Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="CBunker.cpp">
+      <Filter>Game\05. Object\01. Bunker</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Game\07. Asset\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogMgr.cpp">
+      <Filter>Game\03. Maniger\11. LogMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIMgr.cpp">
+      <Filter>Game\03. Maniger\12. UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundMgr.cpp">
+      <Filter>Game\03. Maniger\13. CSoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>Game\05. Object\99. Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileMap.cpp">
+      <Filter>Game\06. Component\03. TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>Game\05. Object\06. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Game\06. Component\02. Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnim.cpp">
+      <Filter>Game\08. Module\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="CBtnUI.cpp">
+      <Filter>Game\05. Object\06. UI\01. BtnUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CHoldUI.cpp">
+      <Filter>Game\05. Object\06. UI\02. HoldUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateMachine.cpp">
+      <Filter>Game\06. Component\04. StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="CState.cpp">
+      <Filter>Game\08. Module\State</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleState.cpp">
+      <Filter>Game\08. Module\State\testState</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlatform.cpp">
+      <Filter>Game\05. Object\07. Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftBunker.cpp">
+      <Filter>Game\05. Object\01. Bunker\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="RightBunker.cpp">
+      <Filter>Game\05. Object\01. Bunker\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlatMap.cpp">
+      <Filter>Game\05. Object\05. Map\PlatMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CMap.cpp">
+      <Filter>Game\05. Object\05. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackETC.cpp">
+      <Filter>Game\05. Object\05. Map\BackETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackMap.cpp">
+      <Filter>Game\05. Object\05. Map\BackMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet.cpp">
+      <Filter>Game\05. Object\03. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceState.cpp">
+      <Filter>Game\08. Module\State\02. UnitState\TraceState</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootState.cpp">
+      <Filter>Game\08. Module\State\02. UnitState\ShootState</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathState.cpp">
+      <Filter>Game\08. Module\State\02. UnitState\DeathState</Filter>
+    </ClCompile>
+    <ClCompile Include="CSmallBullet.cpp">
+      <Filter>Game\05. Object\03. Bullet\01. small</Filter>
+    </ClCompile>
+    <ClCompile Include="PSolider.cpp">
+      <Filter>Game\05. Object\02. Unit\player\01. Solider</Filter>
+    </ClCompile>
+    <ClCompile Include="ESolider.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\01. Solider</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTraceState.cpp">
+      <Filter>Game\08. Module\State\01. BaseState\TraceState</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_Stage.cpp">
+      <Filter>Game\04. Level\03. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="PSWAT.cpp">
+      <Filter>Game\05. Object\02. Unit\player\02. SWAT</Filter>
+    </ClCompile>
+    <ClCompile Include="ESWAT.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\02. SWAT</Filter>
+    </ClCompile>
+    <ClCompile Include="PMedic.cpp">
+      <Filter>Game\05. Object\02. Unit\player\04. Medic</Filter>
+    </ClCompile>
+    <ClCompile Include="CSearchRange.cpp">
+      <Filter>Game\06. Component\05. SearchRange</Filter>
+    </ClCompile>
+    <ClCompile Include="PSniper.cpp">
+      <Filter>Game\05. Object\02. Unit\player\03. Sniper</Filter>
+    </ClCompile>
+    <ClCompile Include="PScout.cpp">
+      <Filter>Game\05. Object\02. Unit\player\05. Scout</Filter>
+    </ClCompile>
+    <ClCompile Include="CBazukaBullet.cpp">
+      <Filter>Game\05. Object\03. Bullet\02. bazuka</Filter>
+    </ClCompile>
+    <ClCompile Include="PDestroyer.cpp">
+      <Filter>Game\05. Object\02. Unit\player\06. Destroyer</Filter>
+    </ClCompile>
+    <ClCompile Include="PHumvee.cpp">
+      <Filter>Game\05. Object\02. Unit\player\10. Humvee</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_Test.cpp">
+      <Filter>Game\04. Level\03. Stage\01.test</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnitMgr.cpp">
+      <Filter>Game\03. Maniger\14. UnitMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CDragUI.cpp">
+      <Filter>Game\05. Object\06. UI\03. DragUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_Start.cpp">
+      <Filter>Game\04. Level\01. Start</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkill.cpp">
+      <Filter>Game\05. Object\04. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_Select.cpp">
+      <Filter>Game\04. Level\02. Select\02. UnitSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_StgSelect.cpp">
+      <Filter>Game\04. Level\02. Select\01, StageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="CRepair.cpp">
+      <Filter>Game\05. Object\04. Skill\01. Repair</Filter>
+    </ClCompile>
+    <ClCompile Include="CAirSupport.cpp">
+      <Filter>Game\05. Object\04. Skill\02. AirSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_Stage01.cpp">
+      <Filter>Game\04. Level\03. Stage\02. stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CAirBullet.cpp">
+      <Filter>Game\05. Object\03. Bullet\03. AirBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextUI.cpp">
+      <Filter>Game\05. Object\06. UI\04. TextUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySommonState.cpp">
+      <Filter>Game\08. Module\State\03. EnemyState</Filter>
+    </ClCompile>
+    <ClCompile Include="ESniper.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\03. Sniper</Filter>
+    </ClCompile>
+    <ClCompile Include="EMedic.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\04. Medic</Filter>
+    </ClCompile>
+    <ClCompile Include="PBMP3.cpp">
+      <Filter>Game\05. Object\02. Unit\player\11. BMP 장갑차</Filter>
+    </ClCompile>
+    <ClCompile Include="EHumvee.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\10. Humvee</Filter>
+    </ClCompile>
+    <ClCompile Include="PVeteranSolider.cpp">
+      <Filter>Game\05. Object\02. Unit\player\08. Veteran Solider</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffect.cpp">
+      <Filter>Game\05. Object\08. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CShootBullet.cpp">
+      <Filter>Game\05. Object\08. Effect\01. shootbullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CShootBazuka.cpp">
+      <Filter>Game\05. Object\08. Effect\02. shootBazuka</Filter>
+    </ClCompile>
+    <ClCompile Include="CShootShotgun.cpp">
+      <Filter>Game\05. Object\08. Effect\03. shoot shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="CHitBazuka.cpp">
+      <Filter>Game\05. Object\08. Effect\04. HitBazuka</Filter>
+    </ClCompile>
+    <ClCompile Include="CHitBullet.cpp">
+      <Filter>Game\05. Object\08. Effect\05. HitBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CHitHumen.cpp">
+      <Filter>Game\05. Object\08. Effect\06.HitHumen</Filter>
+    </ClCompile>
+    <ClCompile Include="CHitHeal.cpp">
+      <Filter>Game\05. Object\08. Effect\07. HitHeal</Filter>
+    </ClCompile>
+    <ClCompile Include="EScout.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\05. Scout</Filter>
+    </ClCompile>
+    <ClCompile Include="EHeavySolider.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\06. HeavySolider</Filter>
+    </ClCompile>
+    <ClCompile Include="EBMP2.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\11. BMP 장갑차</Filter>
+    </ClCompile>
+    <ClCompile Include="PK2Tank.cpp">
+      <Filter>Game\05. Object\02. Unit\player\12.K2전차</Filter>
+    </ClCompile>
+    <ClCompile Include="CTankBullet.cpp">
+      <Filter>Game\05. Object\03. Bullet\04. TankBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CShootTank.cpp">
+      <Filter>Game\05. Object\08. Effect\08. ShootTank</Filter>
+    </ClCompile>
+    <ClCompile Include="PHeavySolider.cpp">
+      <Filter>Game\05. Object\02. Unit\player\07. HeavySolider</Filter>
+    </ClCompile>
+    <ClCompile Include="PVeteranSWAT.cpp">
+      <Filter>Game\05. Object\02. Unit\player\09. Veteran SWAT</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_Stage02.cpp">
+      <Filter>Game\04. Level\03. Stage\03. Stage02</Filter>
+    </ClCompile>
+    <ClCompile Include="EDestroyer.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\07. Destroyer</Filter>
+    </ClCompile>
+    <ClCompile Include="ETruck.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\08. Truck</Filter>
+    </ClCompile>
+    <ClCompile Include="EVeteranSolider.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\09. VeteranSolider</Filter>
+    </ClCompile>
+    <ClCompile Include="EBradly.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\12. Bradley 장갑차</Filter>
+    </ClCompile>
+    <ClCompile Include="CMiniMap.cpp">
+      <Filter>Game\05. Object\09. MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_Stage03.cpp">
+      <Filter>Game\04. Level\03. Stage\04. Stage03</Filter>
+    </ClCompile>
+    <ClCompile Include="EK2Tank.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\13. K2 Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="CShootTank2.cpp">
+      <Filter>Game\05. Object\08. Effect\08. ShootTank</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel_Stage04.cpp">
+      <Filter>Game\04. Level\03. Stage\05. Stage04</Filter>
+    </ClCompile>
+    <ClCompile Include="PrecBombard.cpp">
+      <Filter>Game\05. Object\04. Skill\03. Precision Bombard</Filter>
+    </ClCompile>
+    <ClCompile Include="CPrecBoom.cpp">
+      <Filter>Game\05. Object\03. Bullet\05. PrecBoom</Filter>
+    </ClCompile>
+    <ClCompile Include="CLargeBoomEffect.cpp">
+      <Filter>Game\05. Object\08. Effect\09. precBoom</Filter>
+    </ClCompile>
+    <ClCompile Include="PVeteranHeavy.cpp">
+      <Filter>Game\05. Object\02. Unit\player\13. veteranHeavy</Filter>
+    </ClCompile>
+    <ClCompile Include="EVeteranSWAT.cpp">
+      <Filter>Game\05. Object\02. Unit\Enemy\14.VeteranSWAT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

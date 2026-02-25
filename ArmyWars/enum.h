@@ -1,0 +1,182 @@
+#pragma once
+
+enum class PEN_TYPE
+{
+	RED,
+	GREEN,
+	BLUE,
+	YELLOW,
+	MAGENTA,
+	END,
+};
+
+
+enum class BRUSH_TYPE
+{
+	BLACK,
+	RED,
+	BLUE,
+	GREEN,
+	GRAY,
+	HOLLOW,
+	WHITE,
+	TURQUOISE,
+	END,
+};
+
+enum class FONT_TYPE
+{
+	DEFALT,
+	MEDIUMFONT,
+	HEAVYFONT,
+	LARGEFONT,
+
+
+	END,
+};
+
+enum class LEVEL_TYPE
+{
+	START,
+	STAGE_01,
+	STAGE_02,
+	STAGE_03,
+	STAGE_04,
+	STAGE_TEST,
+	EIDTOR,
+	UNIT_SELECT,
+	STAGE_SELECT,
+	END,
+};
+
+
+enum class LAYER_TYPE
+{
+	DEFAULT,
+	BACKGROUND,
+	TILE,
+	PLATMAP,
+	PLATFORM,
+	PLAYER_UNIT,
+	PLAYER_BASE,
+	PLAYER_UNIT_PROJECTILE,
+	PLAYER_UNIT_HEAl,
+	ENEMY_UNIT,
+	ENEMY_BASE,
+	ENEMY_UNIT_PROJECTILE,
+	ENEMY_UNIT_HEAl,
+	PLAYER_SKILL,
+	EFFECT,
+
+	MINIMAP,
+	UI = 31,
+	END = 32,
+};
+
+
+enum class TASK_TYPE
+{
+	CREATE_OBJECT, // Param0 : Object Adress, Param1 : LayerType
+	DELETE_OBJECT, // Param0 : Object Adress
+	CHANGE_LEVEL,  // Param0 : LEVEL_TYPE
+};
+
+
+enum class COMPONENT_TYPE
+{
+	COLLIDER,
+	ANIMATOR,
+	RIGIDBODY,
+	TILEMAP,
+	SEARCH_RANGE,
+	STATE_MACHINE,
+};
+
+enum class DEBUG_SHAPE
+{
+	RECT,
+	CIRCLE,
+	CROSS,
+	LINE,
+};
+
+enum class LOG_LEVEL
+{
+	LOG,
+	WARNING,
+	BUG,
+};
+
+enum class UNIT_TYPE
+{
+	HUMEN,
+	MACHINE,
+	BASE,
+};
+
+enum class UNIT_ATST
+{
+	STOP,
+	SLOW,
+	MOVE,
+};
+
+
+enum class UNIT_ATTACK
+{
+	INSTANCE,
+	SHOOT,
+	HEAL,
+};
+
+enum class PLAYER_UNIT_NAME
+{
+	SOLIDER,
+	SWAT,
+	SNIPER,
+	MEDIC,
+	SCOUT,
+	DESTROYER,
+	HEAVYSOLIDR,
+	VETERANSOLIDER,
+	VETERANSWAT,
+	VETERANHEAVY,
+	HUMVEE,
+	IFV,
+	K2TANK,
+
+
+
+	END,
+	NONE,
+};
+
+enum class ENEMY_UNIT_NAME
+{
+	SOLIDER,
+	SWAT,
+	SNIPER,
+	MEDIC,
+	SCOUT,
+	HEAVYSOLIDR,
+	DESTROYER,
+	VETERANSOLIDER,
+	VETERANSWAT,
+	TRUCK,
+	HUMVEE,
+	BRADLY,
+	IFV,
+	K2TANK,
+
+	END,
+	NONE,
+};
+
+enum class SKILL_NAME
+{
+	REPAIR,
+	AIRSTRIKE,
+	PRECISIONBOOM,
+
+	END,
+};

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7c25018f-ab08-4cfb-be73-f131214c4cf7}</ProjectGuid>
+    <RootNamespace>ArmyWars</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)OutputFile\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)OutputFile\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ArmyWars.h" />
+    <ClInclude Include="BaseTraceState.h" />
+    <ClInclude Include="CAirBullet.h" />
+    <ClInclude Include="CAirSupport.h" />
+    <ClInclude Include="CAnim.h" />
+    <ClInclude Include="CAnimator.h" />
+    <ClInclude Include="CAsset.h" />
+    <ClInclude Include="CAssetMgr.h" />
+    <ClInclude Include="CBackETC.h" />
+    <ClInclude Include="CBackMap.h" />
+    <ClInclude Include="CBase.h" />
+    <ClInclude Include="CBazukaBullet.h" />
+    <ClInclude Include="CBtnUI.h" />
+    <ClInclude Include="CBullet.h" />
+    <ClInclude Include="CBunker.h" />
+    <ClInclude Include="CCamera.h" />
+    <ClInclude Include="CCollider.h" />
+    <ClInclude Include="CCollisionMgr.h" />
+    <ClInclude Include="CComponent.h" />
+    <ClInclude Include="CDebugMgr.h" />
+    <ClInclude Include="CDragUI.h" />
+    <ClInclude Include="CEffect.h" />
+    <ClInclude Include="CEngine.h" />
+    <ClInclude Include="CLargeBoomEffect.h" />
+    <ClInclude Include="CLevel_Stage02.h" />
+    <ClInclude Include="CLevel_Stage03.h" />
+    <ClInclude Include="CLevel_Stage04.h" />
+    <ClInclude Include="CMiniMap.h" />
+    <ClInclude Include="CPrecBoom.h" />
+    <ClInclude Include="CShootTank.h" />
+    <ClInclude Include="CShootTank2.h" />
+    <ClInclude Include="CTankBullet.h" />
+    <ClInclude Include="EVeteranSWAT.h" />
+    <ClInclude Include="PVeteranHeavy.h" />
+    <ClInclude Include="EBMP2.h" />
+    <ClInclude Include="EBradly.h" />
+    <ClInclude Include="EDestroyer.h" />
+    <ClInclude Include="EHeavySolider.h" />
+    <ClInclude Include="CHitBazuka.h" />
+    <ClInclude Include="CHitBullet.h" />
+    <ClInclude Include="CHitHeal.h" />
+    <ClInclude Include="CHitHumen.h" />
+    <ClInclude Include="CKeyMgr.h" />
+    <ClInclude Include="CLevel.h" />
+    <ClInclude Include="CLevelMgr.h" />
+    <ClInclude Include="CLevel_Editor.h" />
+    <ClInclude Include="CLevel_Select.h" />
+    <ClInclude Include="CLevel_Stage.h" />
+    <ClInclude Include="CLevel_Stage01.h" />
+    <ClInclude Include="CLevel_Start.h" />
+    <ClInclude Include="CLevel_StgSelect.h" />
+    <ClInclude Include="CLevel_Test.h" />
+    <ClInclude Include="CLogMgr.h" />
+    <ClInclude Include="CMap.h" />
+    <ClInclude Include="CObj.h" />
+    <ClInclude Include="CHoldUI.h" />
+    <ClInclude Include="CPathMgr.h" />
+    <ClInclude Include="CPlatform.h" />
+    <ClInclude Include="CPlatMap.h" />
+    <ClInclude Include="CRepair.h" />
+    <ClInclude Include="CSearchRange.h" />
+    <ClInclude Include="CSelectObject.h" />
+    <ClInclude Include="CShootBazuka.h" />
+    <ClInclude Include="CShootBullet.h" />
+    <ClInclude Include="CShootShotgun.h" />
+    <ClInclude Include="CSkill.h" />
+    <ClInclude Include="CSmallBullet.h" />
+    <ClInclude Include="CSound.h" />
+    <ClInclude Include="CSoundMgr.h" />
+    <ClInclude Include="CState.h" />
+    <ClInclude Include="CStateMachine.h" />
+    <ClInclude Include="CTaskMgr.h" />
+    <ClInclude Include="CTextUI.h" />
+    <ClInclude Include="CTexture.h" />
+    <ClInclude Include="CTile.h" />
+    <ClInclude Include="CTileMap.h" />
+    <ClInclude Include="CTimeMgr.h" />
+    <ClInclude Include="CUI.h" />
+    <ClInclude Include="CUIMgr.h" />
+    <ClInclude Include="CUnit.h" />
+    <ClInclude Include="CUnitMgr.h" />
+    <ClInclude Include="DeathState.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="EHumvee.h" />
+    <ClInclude Include="EK2Tank.h" />
+    <ClInclude Include="EMedic.h" />
+    <ClInclude Include="EnemySommonState.h" />
+    <ClInclude Include="enum.h" />
+    <ClInclude Include="EScout.h" />
+    <ClInclude Include="ESniper.h" />
+    <ClInclude Include="ESolider.h" />
+    <ClInclude Include="ESWAT.h" />
+    <ClInclude Include="ETruck.h" />
+    <ClInclude Include="EVeteranSolider.h" />
+    <ClInclude Include="func.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="IdleState.h" />
+    <ClInclude Include="LeftBunker.h" />
+    <ClInclude Include="PBMP3.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PDestroyer.h" />
+    <ClInclude Include="PHeavySolider.h" />
+    <ClInclude Include="PHumvee.h" />
+    <ClInclude Include="PK2Tank.h" />
+    <ClInclude Include="PMedic.h" />
+    <ClInclude Include="PrecBombard.h" />
+    <ClInclude Include="PScout.h" />
+    <ClInclude Include="PSniper.h" />
+    <ClInclude Include="PSolider.h" />
+    <ClInclude Include="PSWAT.h" />
+    <ClInclude Include="PVeteranSolider.h" />
+    <ClInclude Include="PVeteranSWAT.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RightBunker.h" />
+    <ClInclude Include="ShootState.h" />
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="TraceState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArmyWars.cpp" />
+    <ClCompile Include="BaseTraceState.cpp" />
+    <ClCompile Include="CAirBullet.cpp" />
+    <ClCompile Include="CAirSupport.cpp" />
+    <ClCompile Include="CAnim.cpp" />
+    <ClCompile Include="CAnimator.cpp" />
+    <ClCompile Include="CAsset.cpp" />
+    <ClCompile Include="CAssetMgr.cpp" />
+    <ClCompile Include="CBackETC.cpp" />
+    <ClCompile Include="CBackMap.cpp" />
+    <ClCompile Include="CBase.cpp" />
+    <ClCompile Include="CBazukaBullet.cpp" />
+    <ClCompile Include="CBtnUI.cpp" />
+    <ClCompile Include="CBullet.cpp" />
+    <ClCompile Include="CBunker.cpp" />
+    <ClCompile Include="CCamera.cpp" />
+    <ClCompile Include="CCollider.cpp" />
+    <ClCompile Include="CCollisionMgr.cpp" />
+    <ClCompile Include="CComponent.cpp" />
+    <ClCompile Include="CDebugMgr.cpp" />
+    <ClCompile Include="CDragUI.cpp" />
+    <ClCompile Include="CEffect.cpp" />
+    <ClCompile Include="CEngine.cpp" />
+    <ClCompile Include="CLargeBoomEffect.cpp" />
+    <ClCompile Include="CLevel_Stage02.cpp" />
+    <ClCompile Include="CLevel_Stage03.cpp" />
+    <ClCompile Include="CLevel_Stage04.cpp" />
+    <ClCompile Include="CMiniMap.cpp" />
+    <ClCompile Include="CPrecBoom.cpp" />
+    <ClCompile Include="CShootTank.cpp" />
+    <ClCompile Include="CShootTank2.cpp" />
+    <ClCompile Include="CTankBullet.cpp" />
+    <ClCompile Include="EVeteranSWAT.cpp" />
+    <ClCompile Include="PVeteranHeavy.cpp" />
+    <ClCompile Include="EBMP2.cpp" />
+    <ClCompile Include="EBradly.cpp" />
+    <ClCompile Include="EDestroyer.cpp" />
+    <ClCompile Include="EHeavySolider.cpp" />
+    <ClCompile Include="CHitBazuka.cpp" />
+    <ClCompile Include="CHitBullet.cpp" />
+    <ClCompile Include="CHitHeal.cpp" />
+    <ClCompile Include="CHitHumen.cpp" />
+    <ClCompile Include="CKeyMgr.cpp" />
+    <ClCompile Include="CLevel.cpp" />
+    <ClCompile Include="CLevelMgr.cpp" />
+    <ClCompile Include="CLevel_Editor.cpp" />
+    <ClCompile Include="CLevel_Select.cpp" />
+    <ClCompile Include="CLevel_Stage.cpp" />
+    <ClCompile Include="CLevel_Stage01.cpp" />
+    <ClCompile Include="CLevel_Start.cpp" />
+    <ClCompile Include="CLevel_StgSelect.cpp" />
+    <ClCompile Include="CLevel_Test.cpp" />
+    <ClCompile Include="CLogMgr.cpp" />
+    <ClCompile Include="CMap.cpp" />
+    <ClCompile Include="CObj.cpp" />
+    <ClCompile Include="CHoldUI.cpp" />
+    <ClCompile Include="CPathMgr.cpp" />
+    <ClCompile Include="CPlatform.cpp" />
+    <ClCompile Include="CPlatMap.cpp" />
+    <ClCompile Include="CRepair.cpp" />
+    <ClCompile Include="CSearchRange.cpp" />
+    <ClCompile Include="CSelectObject.cpp" />
+    <ClCompile Include="CShootBazuka.cpp" />
+    <ClCompile Include="CShootBullet.cpp" />
+    <ClCompile Include="CShootShotgun.cpp" />
+    <ClCompile Include="CSkill.cpp" />
+    <ClCompile Include="CSmallBullet.cpp" />
+    <ClCompile Include="CSound.cpp" />
+    <ClCompile Include="CSoundMgr.cpp" />
+    <ClCompile Include="CState.cpp" />
+    <ClCompile Include="CStateMachine.cpp" />
+    <ClCompile Include="CTaskMgr.cpp" />
+    <ClCompile Include="CTextUI.cpp" />
+    <ClCompile Include="CTexture.cpp" />
+    <ClCompile Include="CTile.cpp" />
+    <ClCompile Include="CTileMap.cpp" />
+    <ClCompile Include="CTimeMgr.cpp" />
+    <ClCompile Include="CUI.cpp" />
+    <ClCompile Include="CUIMgr.cpp" />
+    <ClCompile Include="CUnit.cpp" />
+    <ClCompile Include="CUnitMgr.cpp" />
+    <ClCompile Include="DeathState.cpp" />
+    <ClCompile Include="EHumvee.cpp" />
+    <ClCompile Include="EK2Tank.cpp" />
+    <ClCompile Include="EMedic.cpp" />
+    <ClCompile Include="EnemySommonState.cpp" />
+    <ClCompile Include="EScout.cpp" />
+    <ClCompile Include="ESniper.cpp" />
+    <ClCompile Include="ESolider.cpp" />
+    <ClCompile Include="ESWAT.cpp" />
+    <ClCompile Include="ETruck.cpp" />
+    <ClCompile Include="EVeteranSolider.cpp" />
+    <ClCompile Include="func.cpp" />
+    <ClCompile Include="IdleState.cpp" />
+    <ClCompile Include="LeftBunker.cpp" />
+    <ClCompile Include="PBMP3.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PDestroyer.cpp" />
+    <ClCompile Include="PHeavySolider.cpp" />
+    <ClCompile Include="PHumvee.cpp" />
+    <ClCompile Include="PK2Tank.cpp" />
+    <ClCompile Include="PMedic.cpp" />
+    <ClCompile Include="PrecBombard.cpp" />
+    <ClCompile Include="PScout.cpp" />
+    <ClCompile Include="PSniper.cpp" />
+    <ClCompile Include="PSolider.cpp" />
+    <ClCompile Include="PSWAT.cpp" />
+    <ClCompile Include="PVeteranSolider.cpp" />
+    <ClCompile Include="PVeteranSWAT.cpp" />
+    <ClCompile Include="RightBunker.cpp" />
+    <ClCompile Include="ShootState.cpp" />
+    <ClCompile Include="TraceState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ArmyWars.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ArmyWars.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
